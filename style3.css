@@ -1,0 +1,56 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background: url('images/reg.jpg') no-repeat;
+	background-size: cover;
+	color: #000000;
+}
+
+.rform{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+}
+
+.rform h1{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+
+.rform p{
+	font-size: 20px;
+	margin: 15px 0;
+}
+
+.rform input{
+	font-size: 16px;
+	padding: 15px 10px;
+	width: 500px;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+
+.rform button{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 50%;
+	border: 0;
+	border-radius: 5px;
+	background-color: #fff;
+
+}
+
+.rform button:hover{
+     color: yellow;
+}

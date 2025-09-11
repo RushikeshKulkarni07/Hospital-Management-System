@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title> Kolhapur Cancer Centre</title>
+<!--
+
+Template 2098 Health
+
+http://www.tooplate.com/view/2098-health
+
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="Tooplate">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/animate.css">
+     <link rel="stylesheet" href="css/owl.carousel.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/tooplate-style.css">
+
+</head>
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+<!-- HEADER -->
+     <header>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-4 col-sm-5">
+                        <p><b>Welcome to  Kolhapur Cancer Centre</p></b>
+                    </div>
+                         
+                    <div class="col-md-8 col-sm-7 text-align-right">
+                         <span class="phone-icon"><i class="fa fa-phone"></i>+91 888 802 4444</span>
+                         <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 6:00 AM - 10:00 PM (Mon-Fri)</span>
+                         <p><b>Sunday <span>Closed</span></p></b>
+                    </div>
+
+               </div>
+          </div>
+     </header>
+
+
+     <!-- MENU -->
+     <section class="navbar navbar-default navbar-static-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand"> Kolhapur Cancer Centre</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="index.html" class="smoothScroll">Home</a></li>
+                         <li><a href="about.html" class="smoothScroll">About Us</a></li>
+                         <li><a href="news-detail.html" class="smoothScroll">News</a></li>
+                         <li><a href="team.html" class="smoothScroll">Doctors</a></li>
+                          <li class="appointment-btn"><a href="log.html">Admin</a></li>
+                         <li class="appointment-btn"><a href="dr.html">Make an appointment</a></li>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+
+     <h2   align="center" style="color:#000000;">Make an appointment</h2>
+
+                              
+     <style>
+               body {
+                    background-image: url('images/reg.jpg');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    background-color: #00FFFF;
+                    width: 100%;
+                    height: 50%;
+               }
+
+
+               table
+               {
+                    color: black;
+                    
+               }
+
+               #btn
+               {
+                    background-color: black;
+                    color: white;
+                    height: 35px;
+                    width: 100px;
+                    border-radius: 25px;
+               }
+          </style>
+     
+</head>
+
+
+
+
+<body> 
+<script type="text/javascript">
+     function myFun(){
+          var correct_way = /^[A-Za-z]+$/;
+          var a = document.getElementById("fname").value;
+          var b = document.getElementById("lname").value;
+          var c = document.getElementById("ad").value;
+          var d = document.getElementById("date").value;
+          if (a.match(correct_way)) 
+          true;
+          else{
+               alert("ONLY CHARACTERS ARE ALLOWED FOR FIRSTNAME");
+               return false;
+          }
+          if (b.match(correct_way)) 
+          true;
+          else{
+               alert("ONLY CHARACTERS ARE ALLOWED FOR LASTNAME");
+               return false;
+          }
+          if (c.match(correct_way)) 
+          true;
+          else{
+               alert("ONLY CHARACTERS ARE ALLOWED FOR ADDRESS"); 
+               return false;
+          }
+
+          
+     }
+</script>     
+     <form onsubmit="return myFun()" action="insert.php" method="post">
+       <table   align="center" border="0"  cellspacing="15">
+          <br>
+          <tr>
+               
+               <td>
+          <label><b> First Name:</b></label><td>
+          <input type="text" name="fname" id="fname" placeholder="Enter your first name" required autocomplete="off" ></td></td></tr><br><br>
+          
+
+          <tr><td><br>
+          <label><b>Last name:</b></label><td><br>
+          <input type="text" name="lname"  id="lname" placeholder="Enter your last name" required autocomplete="off"></td></td></tr>
+            
+          <tr><td><br>
+          <label><b>Age: </b></label><td><br>
+          <input type="number" name="age" placeholder="Enter your age "  required autocomplete="off" ></td></td></tr>
+
+          <tr><td><br>
+          <label><b>Email:</b></label><td><br>
+          <input type="email" name="email"  placeholder="Enter your email id"  required autocomplete="off" ></td></td></tr>
+
+          <tr><td><br>
+          <label><b>Select Date:</b></label><td><br>
+          <input type="date" name="date"  placeholder="Appoinment date" required ></td></td></tr>
+
+          <tr><td><br>
+          <label><b>Select Time: </b></label><td><br>
+          <input type="time" name="time"  placeholder="Appoinment time" required   ></td></td></tr>
+
+          
+          <tr><td><br>
+          <label><b>Phone Number:</b></label><td><br>
+          <input type="number" name="phoneno" placeholder="Enter your phone no"  required autocomplete="off"></td></td></tr>
+
+
+          <tr><td><br>
+          <label><b>Address: </b></label><td><br>
+          <input type="text" name="address" id="ad" placeholder="Enter your address" required autocomplete="off" ></td></td><tr>
+          
+          <tr><td><br>
+          <label><b>OPD: </b></label><td><br>
+          <input type="text" name="opd" value=" Surgical Oncologist" autocomplete="off" ></td></td><tr>
+          
+          <tr><td align="center"><br>
+            
+          <input type="submit" id="btn" name="submit"></td>
+          <td align="center"><br>
+               
+           <input type="reset" id="btn" name="cancel"></td></tr>
+       
+     </form>
+</section>
+                       
+</body>
+</html>
