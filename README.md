@@ -42,7 +42,7 @@
 Follow the steps below to set up and run the project locally:
 
 1. **Clone the repository**
-	git clone https://github.com/PrafullHarer/Hospitron.git
+	git clone https://github.com/RushikeshKulkarni07/Hospital-Management-System/blob/main/README.md
 	cd Hospitron
 3. **Create a virtual environment (optional but recommended)**
 	python -m venv venv
@@ -62,5 +62,5 @@ Follow the steps below to set up and run the project locally:
 ## 📬 Contact
 
 * Author: Rushikesh Kulkarni 
-* GitHub: @PrafullHarer
+* GitHub: @RushikeshKulkarni07
 * Email: rushikeshkulkarni472@gmail.com@gmail.com
