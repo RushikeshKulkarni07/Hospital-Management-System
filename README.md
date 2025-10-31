@@ -61,6 +61,6 @@ Follow the steps below to set up and run the project locally:
 ---
 ## 📬 Contact
 
-* Author: Prafull Harer
+* Author: Rushikesh Kulkarni 
 * GitHub: @PrafullHarer
-* Email: prafullharer@gmail.com
+* Email: rushikeshkulkarni472@gmail.com@gmail.com
